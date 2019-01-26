@@ -13,9 +13,15 @@ namespace C0732104_week03
         }
     }
 
-    class Node
+    class Village
     {
-        Node PreviousNode;
-        Node NextNode;
+        Village PreviousVillage;
+        Village NextVillage;
+
+        String VillageName;
+        bool isAstrildeHere = false;
+        public   Village() { }
+
+
     }
 }
