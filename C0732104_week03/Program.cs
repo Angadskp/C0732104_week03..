@@ -49,6 +49,7 @@ namespace C0732104_week03
             NextVillage = CurrentVillage.NextVillage;
         }
 
+
     }
 
  class Village
