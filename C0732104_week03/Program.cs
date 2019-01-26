@@ -36,9 +36,17 @@ namespace C0732104_week03
             Schenig.NextVillage = Alst;
         }
 
-        public void WalkAround()
+        public void FindAstrilde()
         {
-            Village InitializeVillage = this.Maeland;
+
+            Village CurrentVillage = this.Maeland;
+            Village NextVillage;
+            if (CurrentVillage.isAstrildeHere)
+            {
+                Console.WriteLine("Hugi Found Astrilde!!! Celebration!! XoXo!!");
+            }
+
+            NextVillage = CurrentVillage.NextVillage;
         }
     }
 
