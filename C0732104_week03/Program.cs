@@ -12,4 +12,10 @@ namespace C0732104_week03
         {
         }
     }
+
+    class Node
+    {
+        Node PreviousNode;
+        Node NextNode;
+    }
 }
